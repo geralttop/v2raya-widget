@@ -1,0 +1,7 @@
+# Local authentication and runtime data
+.env
+.env.*
+!.env.example
+/token
+*.log
+__pycache__/

@@ -1,0 +1,27 @@
+id = "geralttop/v2raya"
+name = "v2rayA"
+version = "0.1.0"
+author = "geralttop"
+license = "MIT"
+description = "Управление VPN: состояние, подключение и выбор сервера"
+icon = "shield-lock"
+plugin_api = 42
+tags = ["vpn", "network", "bar", "panel"]
+
+[[service]]
+id = "connection"
+entry = "service.luau"
+
+[[widget]]
+id = "bar"
+entry = "bar.luau"
+
+[[panel]]
+id = "control"
+entry = "panel.luau"
+width = 400
+height = "content"
+max_height = 540
+placement = "floating"
+position = "auto"
+open_near_click = true
